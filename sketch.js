@@ -92,10 +92,10 @@ function setup()
 
   //}
 
-  // textSize(20);
-  // stroke("green");
-  // fill("yellow");
-  // text("foodStock "+foodStock,670,50);\
+  textSize(20);
+  stroke("green");
+  fill("yellow");
+  text("foodStock "+foodS,670,50);
 
   fedTime = database.ref('Feed Time');
   fedTime.on("value",function(data){
